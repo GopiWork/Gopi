@@ -1,0 +1,183 @@
+@media (min-width: 320px) and (max-width: 376px) {
+    .navbar-nav {
+      
+      font-size: 14px; /* Adjust font size for small screens */
+    }
+
+    .navbar-toggler {
+      margin-right: 10px;
+    }
+    .navbar-brand{
+        font-size: 20px !important;
+    }
+    .hero-section {
+      padding:20px 0px;
+      text-align: left;
+    }
+    .animated-letter{
+      font-size: 20px;
+    }
+    .role{
+      font-size: 20px ;
+    }
+    .btn-primary{
+      padding: 10px 12px !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+    }
+    .btn-warning{
+      padding: 10px 12px !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+      
+    }
+    .programmer-img {
+      width: 100%; /* Adjust the image size */
+      
+    }
+
+    .icon-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .icon {
+      width: 40px; /* Smaller icons for mobile */
+      margin: 10px;
+    }
+    .my-80{
+      margin: 10px 0px  !important;
+    }
+    .programmer-day{
+      padding: 0px;
+    }
+    .py-5{
+      padding: 20px 0px !important;
+    }
+    
+    .panel-container {
+      display: flex;
+     
+      grid-template-columns: repeat(1, 1fr); /* Single column layout for small screens */
+   
+    
+    }
+    .panel {
+      position: absolute;
+      top: 0;
+      left: -1%;
+      width: 100%;
+      
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    
+    }
+    .panel {
+      height: 230px;
+       /* Adjust height of the panel */
+    }
+    .internship-card{
+   width: 98%;
+   text-align: justify;
+   padding: 4px;
+   padding-bottom: 20PX;
+    }
+    .modal-dialog {
+      max-width: 100%; /* Full width for mobile */
+      margin: 0; /* Remove margin */
+    }
+  
+    .modal-body img {
+      width: 100%; /* Ensure image is fully responsive */
+      height: auto;
+    }
+
+  }
+
+  /* For mobile (377px - 419px) */
+  @media (min-width: 377px) and (max-width: 419px) {
+    .navbar-nav {
+    
+      font-size: 16px; /* Adjust font size for better readability */
+    }
+    .navbar-toggler {
+      margin-right: 10px;
+    }
+    .navbar-brand{
+        font-size: 20px !important;
+    }
+    .hero-section {
+      padding:20px 0px;
+      text-align: left;
+    }
+    .animated-letter{
+      font-size: 20px;
+    }
+    .role{
+      font-size: 20px ;
+    }
+    .btn-primary{
+      padding: 10px  12px !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+    }
+    .btn-warning{
+      padding: 10px 12px !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+    }
+  }
+
+  /* For mobile (420px - 576px) */
+  @media (min-width: 420px) and (max-width: 576px) {
+    .navbar-nav {
+    
+      font-size: 16px; /* Adjust font size */
+    }
+    .navbar-toggler {
+      margin-right: 10px;
+    }
+    .navbar-brand{
+        font-size: 20px !important;
+    }
+    .hero-section {
+      padding:20px 0px;
+      text-align: left;
+    }
+    .animated-letter{
+      font-size: 20px;
+    }
+    .role{
+      font-size: 20px ;
+    }
+    .btn-primary{
+      padding: 10px 12px !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+    }
+    .btn-warning{
+      padding: 10px 12px !important;
+      border-radius: 0px !important;
+      font-size: 16px !important;
+    }
+  }
+
+  /* For tablets (768px to 991px) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .navbar-nav {
+    
+    }
+  }
+
+  /* For desktops (992px and up) */
+  @media (min-width: 992px) {
+    .navbar-nav {
+      display: flex;
+      justify-content: center; /* Center items on desktop */
+    }
+    .navbar-collapse {
+      justify-content: center;
+    }
+  }
